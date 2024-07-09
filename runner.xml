@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <parameter name="environment" value="staging" />
+    <test name="Test">
+        <classes>
+            <!-- Specify the fully qualified name of your test class -->
+            <class name="com.shield3.test.AuthModuleTest" />
+        </classes>
+    </test>
+</suite>
